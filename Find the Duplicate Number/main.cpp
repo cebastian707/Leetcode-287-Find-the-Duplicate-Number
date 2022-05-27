@@ -28,7 +28,7 @@ int findDuplicate(std::vector<int>& nums) {
 
 
 
-int main(int argv, char argc[]) {
+int main(int argc, char argv[]) {
 	std::vector<int> num = { 3,1,3,4,2 };
 
 	std::cout << findDuplicate(num) << std::endl;
